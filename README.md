@@ -6,7 +6,7 @@ The birth of the image tag: the email that Mark Andreesen sent proposing the add
 
 
 
-  From: "Marc Andreessen" <marca@ncsa.uiuc.edu>
+  	From: "Marc Andreessen" <marca@ncsa.uiuc.edu>
 	Date: Thu, 25 Feb 93 21:09:02 -0800
 	Subject: proposed new tag: IMG
 
