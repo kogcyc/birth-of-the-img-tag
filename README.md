@@ -1,10 +1,7 @@
 birthoftheimgtag
 ================
 
-The birth of the image tag: the email that Marc Andreessen sent proposing the addition of the &lt;img&gt; tag to HTML
-
-
-
+Marc Andreessen is the father of the <img> tag.  He is responsible for adding bitmaps to HTML.  Here is the email that Marc sent proposing the addition.
 
   	From: "Marc Andreessen" <marca@ncsa.uiuc.edu>
 	Date: Thu, 25 Feb 93 21:09:02 -0800
