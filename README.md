@@ -5,44 +5,45 @@ The birth of the image tag: the email that Mark Andreesen sent proposing the add
 
 
 
-From: "Marc Andreessen" <marca@ncsa.uiuc.edu>
-Date: Thu, 25 Feb 93 21:09:02 -0800
-Subject: proposed new tag: IMG
 
-I'd like to propose a new, optional HTML tag:
+  From: "Marc Andreessen" <marca@ncsa.uiuc.edu>
+	Date: Thu, 25 Feb 93 21:09:02 -0800
+	Subject: proposed new tag: IMG
 
-IMG
+	I'd like to propose a new, optional HTML tag:
 
-Required argument is SRC="url".
+	IMG
 
-This names a bitmap or pixmap file for the browser to attempt to pull
-over the network and interpret as an image, to be embedded in the text
-at the point of the tag's occurrence.
+	Required argument is SRC="url".
 
-An example is:
+	This names a bitmap or pixmap file for the browser to attempt to pull
+	over the network and interpret as an image, to be embedded in the text
+	at the point of the tag's occurrence.
 
-<IMG SRC="file://foobar.com/foo/bar/blargh.xbm">
+	An example is:
 
-(There is no closing tag; this is just a standalone tag.)
+	<IMG SRC="file://foobar.com/foo/bar/blargh.xbm">
 
-This tag can be embedded in an anchor like anything else; when that
-happens, it becomes an icon that's sensitive to activation just like a
-regular text anchor.
+	(There is no closing tag; this is just a standalone tag.)
 
-Browsers should be afforded flexibility as to which image formats they
-support. Xbm and Xpm are good ones to support, for example. If a
-browser cannot interpret a given format, it can do whatever it wants
-instead (X Mosaic will pop up a default bitmap as a placeholder).
+	This tag can be embedded in an anchor like anything else; when that
+	happens, it becomes an icon that's sensitive to activation just like a
+	regular text anchor.
 
-This is required functionality for X Mosaic; we have this working, and
-we'll at least be using it internally. I'm certainly open to
-suggestions as to how this should be handled within HTML; if you have
-a better idea than what I'm presenting now, please let me know. I
-know this is hazy wrt image format, but I don't see an alternative
-than to just say ``let the browser do what it can'' and wait for the
-perfect solution to come along (MIME, someday, maybe).
+	Browsers should be afforded flexibility as to which image formats they
+	support. Xbm and Xpm are good ones to support, for example. If a
+	browser cannot interpret a given format, it can do whatever it wants
+	instead (X Mosaic will pop up a default bitmap as a placeholder).
 
-Let me know what you think.........
+	This is required functionality for X Mosaic; we have this working, and
+	we'll at least be using it internally. I'm certainly open to
+	suggestions as to how this should be handled within HTML; if you have
+	a better idea than what I'm presenting now, please let me know. I
+	know this is hazy wrt image format, but I don't see an alternative
+	than to just say ``let the browser do what it can'' and wait for the
+	perfect solution to come along (MIME, someday, maybe).
 
-Cheers,
-Marc
+	Let me know what you think.........
+
+	Cheers,
+	Marc
