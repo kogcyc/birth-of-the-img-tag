@@ -1,4 +1,4 @@
-Birth Of The img Tag
+Birth Of The HTML IMG Tag
 ================
 
 Marc Andreessen is the father of the IMG tag.  He is responsible for adding bitmaps to HTML.  Here is the email that Marc sent proposing the addition.
